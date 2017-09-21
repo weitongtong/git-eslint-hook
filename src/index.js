@@ -1,2 +1,2 @@
-const aa = 10;
-aa + 1;
+const aa = 10
+aa + 1
