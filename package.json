@@ -1,0 +1,18 @@
+{
+  "name": "eslint-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "node check.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "pre-commit": "^1.2.2"
+  }
+}
